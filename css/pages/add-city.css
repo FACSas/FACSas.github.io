@@ -1,0 +1,55 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cityRequester {
+    border-width: 2px;
+    border-color: black;
+    font-weight: 700;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notify {
+    color: white;
+    margin-top: 3%;
+    font-size: 16px;
+}
+
+.error {
+    margin: 15px;
+    width: 475px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #dc3545;
+    color: white;
+}
+
+.warning {
+    margin: 15px;
+    width: 475px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #ffc107;
+    color: white;
+}
+
+.sucess {
+    margin: 15px;
+    width: 475px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #28a745;
+    color: white;
+}

@@ -36,10 +36,22 @@
             </p>
         </section>
         <section class="ctc">
-            <p>
-                Nombre <input class="name" type="nameUser"> <br> Email <input class="email" type="emailUser"> <br> Mensaje <textarea name="msgUser" cols="30" rows="10"></textarea>
-            </p>
+            <form>
+                <label>Nombre <br><input class="name" type="nameUser"></label>
+                <br>
+                <label>Email <br><input class="email" type="emailUser"></label>
+                <br>
+                <label>Mensaje <br><textarea class="txtArea" cols="1" rows="9"></textarea></label>
+            </form>
+            <div>
+                <button>Enviar</button>
+                <button>Limpiar</button>
+            </div>
+            <div class="error">
+                <p class="notify">Ingrese un email valido.</p>
+            </div>
         </section>
+
     </main>
     <footer>
         <p>

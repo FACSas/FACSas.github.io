@@ -7,6 +7,7 @@
     <title>Clima App</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/add-city.css">
 </head>
 
 <body>
@@ -27,9 +28,19 @@
         <h2>Añadir Ciudad</h2>
         <section>
             <form>
-                <p>Ingrese la Ciudad a agregar: <input type="agregarCiudad"></p>
-                <button>Agegar</button>
+                <label>Ingrese la Ciudad a agregar <br><input type="agregarCiudad"></label>
+                <br>
+                <button class="btnAgregar">Agegar</button>
             </form>
+            <div class="error">
+                <p class="notify">Error: La ciudad ingesada no se encuentra en la API o se produjo un error al consultar.</p>
+            </div>
+            <div class="warning">
+                <p class="notify">La ciudad ingresada ya se encuentra almacenada.</p>
+            </div>
+            <div class="sucess">
+                <p class="notify">Ciudad agregada con exito.</p>
+            </div>
         </section>
     </main>
     <footer>

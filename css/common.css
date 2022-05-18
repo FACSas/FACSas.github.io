@@ -18,11 +18,35 @@ body {
     width: 100%;
 }
 
+input {
+    max-height: 45px;
+    min-width: 200px;
+    font-size: medium;
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+
 ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    filter: drop-shadow(0 0 4px #9ab991);
+}
+
+button {
+    background-color: #00594c;
+    color: white;
+    border: 0;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 button,
@@ -36,6 +60,10 @@ header {
     top: 0;
     width: 100%;
     background: var(--color-theme);
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 0px 3px #5df2d6;
+    background-image: var(--color-gradient)
 }
 
 nav>ul {
@@ -62,6 +90,8 @@ nav li.current-page a {
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 main {
@@ -86,6 +116,7 @@ h1>img {
 h2 {
     color: (--color-theme);
     margin: 16px 0;
+    margin-top: 50px;
     text-align: center;
     color: var(--color-theme)
 }
@@ -108,6 +139,8 @@ footer {
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: 1px -2px #5df2d6;
+    background-image: var(--color-gradient)
 }
 
 footer p {

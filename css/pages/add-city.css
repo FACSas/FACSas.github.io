@@ -5,6 +5,10 @@ section {
     text-align: center;
 }
 
+.btnAgregar {
+    min-width: 50%;
+}
+
 .cityRequester {
     border-width: 2px;
     border-color: black;

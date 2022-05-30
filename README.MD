@@ -10,7 +10,9 @@ Licesing
 # ¿Como usar?
 
 La apliacion consta de 3 secciones. 
+
 *Clima:* Deberas seleccionar una ciudad de la lista. Una vez hecho esto, presionar el boton "Consulta".
+
 *Agregar Ciudad:* Desde aqui, podra agregar la ciudad que desee en caso de no estar en la lista. Escribiendo su nombre en el cuadro de texto, y luego, presionando el boton "Agregar"
 
 # ETAPA 1 // Correciones de la V1.0a

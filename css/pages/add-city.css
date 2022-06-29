@@ -31,29 +31,32 @@ div {
     font-size: 16px;
 }
 
-.error {
+#error {
     margin: 15px;
     width: 475px;
     height: 60px;
     border-radius: 15px;
     background-color: #dc3545;
     color: white;
+    display: none;
 }
 
-.warning {
+#warning {
     margin: 15px;
     width: 475px;
     height: 60px;
     border-radius: 15px;
     background-color: #ffc107;
     color: white;
+    display: none;
 }
 
-.sucess {
+#sucess {
     margin: 15px;
     width: 475px;
     height: 60px;
     border-radius: 15px;
     background-color: #28a745;
     color: white;
+    display: none;
 }

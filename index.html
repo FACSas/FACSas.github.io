@@ -8,17 +8,21 @@
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="./css/pages/index.css">
+    <script src="js/common.js"></script>
+    <script src="js/pages/index.js"></script>
 </head>
 
 <body>
     <!-- Header de la página -->
     <header>
-        <h1> <span>Clima App <img src="img/climApp.png" style="width:4%;" height="7%"></span> </h1>
+        <h1> <span>Clima App <img src="img/climApp.png" style= width:4% height=7%></span> </h1>
         <nav>
             <ul>
                 <li class="current-page"><a href="#">Clima</a></li>
                 <li><a href="./add-city.html">Agregar Ciudad</a></li>
                 <li><a href="./help.html">Ayuda</a></li>
+                <script src="./js/pages/index.js"></script>
+                <script src="./js/common.js"></script>
             </ul>
         </nav>
     </header>
@@ -28,12 +32,10 @@
         <h2>El Clima Ahora</h2>
 
         <section id="form-city-list">
-            <form>
-
-                <select class="citySelector">
-                    <option disabled selected value="none">Seleccionar Ciudad</option>
-                    <option value="Rosario">Rosario</option>
-                    <option value="Rafaela">Rafaela</option>
+            <form id="formCity" , name="formCity">
+                <select id="citySelector" name="citySelector">
+                    <option selected disabled value="none">Seleccionar Ciudad</option>
+                    
                 </select>
 
                 <button id="btnConsulta"> Consulta </button>
@@ -41,14 +43,14 @@
         </section>
 
         <section id="section-weather-result">
-            <div class="card">
-                <h3 id="cardCity">Rosario</h3>
-                <img src="http://openweathermap.org/img/wn/01d@2x.png">
-                <p>Temperatura: 25.31º</p>
-                <p>Sensacion Termica: 24.65º</p>
-                <p>Humedad: 29%</p>
-                <p>Velocidad del viento: 4.64km/h</p>
-                <p>Presion: 1011 P</p>
+            <div id="card">
+                <h3 id="cardCity"></h3>
+                <img id="cieloImg" src="http://openweathermap.org/img/wn/01d@2x.png">
+                <p id="temp"></p>
+                <p id="st"></p>
+                <p id="hum"></p>
+                <p id="velV"> </p>
+                <p id="pres"></p>
             </div>
             <!-- Sección donde se debe mostrar el clima de la ciudad -->
         </section>

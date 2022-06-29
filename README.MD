@@ -25,3 +25,8 @@ La apliacion consta de 3 secciones.
 # ETAPA 2 // V1.2a: Actualizaciones Css 
 - El contendio de estilo de la pagina fue actualizado en las 3 secciones.
 - Notificaciones push diseñadas e incorpordas en la pagina
+
+# ETAPA 3 // V1.3a: Logica con JS
+- La pagina esta conectada a la API de OpenWeatherMap
+- Al agregar una ciudad desde Add City, la misma es incluida en el LocalStorage en formato JSON
+- En la seccion de Clima al presionar el boton consultar se muestra el clima de la ciudad elegida 

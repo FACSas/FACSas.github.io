@@ -4,7 +4,8 @@
     font-size: x-large;
 }
 
-.card {
+#card {
+    display: none;
     margin-top: 50px;
     border-radius: 10%;
     padding-left: 12px;
@@ -14,7 +15,7 @@
     font-weight: 600;
 }
 
-.citySelector {
+#citySelector {
     min-width: 200px;
     max-height: 50px;
     border-width: 2px;
